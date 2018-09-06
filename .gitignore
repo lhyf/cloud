@@ -23,3 +23,22 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+Eureka-Person/src/test/
+Eureka-Person/target/
+Eureka-Police/src/test/
+Eureka-Police/target/
+Eureka-Server/src/main/java/org/lhyf/cloud/eureka/
+Eureka-Server/src/test/
+Eureka-Server/target/
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
