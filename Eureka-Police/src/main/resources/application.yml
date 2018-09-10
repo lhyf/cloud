@@ -7,4 +7,9 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://127.0.0.1:8761/eureka,http://127.0.0.1:8762/eureka
+  instance:
+    lease-expiration-duration-in-seconds: 10 # 如果我10秒不发送心跳请求,请把我从服务列表中剔除
+    lease-renewal-interval-in-seconds: 5 # 每隔5秒发送一次续约请求
+    metadata-map:
+      company-name: lhyf
